@@ -1,7 +1,8 @@
 # local-voice-Assistant-Using-Ollama-
 
-Architecture
- Mic → VAD (webrtcvad) → Faster-Whisper (STT) → Ollama / Llama 3.2 (LLM) → Kokoro-82M (TTS) → Speakers
+## Architecture
+ 
+Mic → VAD (webrtcvad) → Faster-Whisper (STT) → Ollama / Llama 3.2 (LLM) → Kokoro-82M (TTS) → Speakers
                                                         ↑
                                           Conversation history (multi-turn memory)
                                           
